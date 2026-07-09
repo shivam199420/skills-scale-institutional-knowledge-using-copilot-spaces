@@ -38,3 +38,17 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+
+---
+
+## Checklists & How to use them
+We maintain lightweight, practical checklists to reduce ad-hoc decisions and ensure consistent readiness gates. Store checklists in the docs/ folder and reference them from process documents.
+
+- Release checklist: See [docs/release-checklist.md](./release-checklist.md) for staging, production, and post-release steps.
+
+How to use the checklists
+- Make the checklist part of the definition of done for a milestone or release.
+- Assign an owner for each checklist run (Delivery Lead, Release Manager, or SRE depending on the activity).
+- Keep checklist items short and executable; move items to issues when work is required.
+- Use the checklist during planning and again before the deployment window.
+
